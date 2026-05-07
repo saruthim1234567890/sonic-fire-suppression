@@ -42,11 +42,3 @@ This project is a software simulation of a Sonic Wave Fire Suppression System de
 The purpose of this project is to visually simulate how sound waves can influence fire behavior using interactive web technologies.
 
 ---
-
-## 📹 Demo Video
-(Add your demo video link here)
-
----
-
-## 👨‍💻 Developer
-Pavin Kumar S
