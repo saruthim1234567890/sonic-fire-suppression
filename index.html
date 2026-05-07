@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sonic Fire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sonic Fire Suppression System</h1>
+
+<div class="main">
+
+  <div class="controls">
+    <button id="soundBtn">Start Sound</button>
+
+    <h3>Adjust Frequency</h3>
+    <input type="range" min="0" max="100" value="0" id="slider">
+    <p><span id="value">0</span> Hz</p>
+  </div>
+
+  <div class="scene">
+    <div class="speaker"></div>
+
+    <div class="waves" id="waves">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="fire" id="fire"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
